@@ -14,6 +14,6 @@ jobs:
           password: ${{secrets.SSH_PASSWORD}}
 
           script: |
-            cd /var/www/html
+            cd /var/www/html/
             git clone https://github.com/chungboklee/plugged.git
             echo 'Deployment successful to Digital Ocean'
