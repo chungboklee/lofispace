@@ -15,5 +15,6 @@ jobs:
 
           script: |
             cd /var/www/plugged
+            rm -rf plugged
             git clone https://github.com/chungboklee/plugged.git
             echo 'Deployment successful to Digital Ocean'
