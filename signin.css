@@ -5,7 +5,7 @@ body {
 
 body {
   display: flex;
-  font-family: 'Inter', verdana, arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   align-items: center;
   padding-top: 40px;
@@ -29,7 +29,10 @@ main{
   margin-right:auto;
 }
 
-.font-logo{font-family: 'Montserrat', sans-serif;}
+.font-logo{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
 
 .form-signin {
   width: 100%;
