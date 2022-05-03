@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: 'Inter', verdana, arial, sans-serif;
+  font-size: 1rem;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f1f2f3;
+}
+
+main{
+  align-items: center;
+}
+
+.lottie-bg{
+  position:absolute;
+  z-index:-1;
+  width:auto;
+  height:100%;
+  top:-40%;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.font-logo{font-family: 'Montserrat', sans-serif;}
+
+.form-signin {
+  width: 100%;
+  max-width: 320px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

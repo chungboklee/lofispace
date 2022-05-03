@@ -4,10 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="CB">
-    <title>Welcome</title>
+    <meta name="author" content="Chungbok Lee">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>HIFIVE · Find the team that suits you</title>
 
-    <link href="style.css" rel="stylesheet">
+    <link rel="canonical" href="https://hifiveme.com">
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -25,36 +34,45 @@
       }
     </style>
 
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
   </head>
+
   <body class="text-center">
     
-<main class="form-signin">
+  <main class="form-signin">
   <form>
-    <img class="mb4" src="assets/image/signin/web.png" alt="" width="72" height="56">
-    <h1 class="mb4">Please Plug-in</h1>
-    <p>Welcome to PluggedIn.</p>
-    <p class="mb8">Create your <bold>P-Card</bold> and collect others' cards for better network.</p>
+    <img class="mb-4" src="assets/image/brand/logo.png" alt="" width="80" height="80">
+    <h1 class="strong font-logo mb-0">HIFIVE</h1>
+    <h6 class="mb-4 text-secondary">Build a perfect team near you.</h6>
 
-    <div class="form-floating mb2">
-      <input type="email" class="form-control" id="floatingInput" placeholder="your@email.com">
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
     </div>
-    <div class="form-floating mb2">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="password">
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
 
-    <div class="checkbox mb8">
+    <div class="checkbox mb-4">
       <label>
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <button class="buttonfull mb8" type="submit">Plug-in</button>
-    <p class="textsm">&copy;<script>document.write(new Date().getFullYear())</script>. PluggedIn. All rights reserved.</p>
+
+    <button class="w-100 btn btn-primary mb-2" type="submit">Sign in</button>
+    <button class="w-100 btn text-primary" type="submit">Create new account</button>
+    <p class="mt-5 mb-3 text-secondary small">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script>. HIFIVE. All rights reserved.
+    </p>
   </form>
 </main>
 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<div class="lottie-bg align-self-start">
+  <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_06qof0oc.json"  background="transparent"  speed="1"  style="top:0; left:0; right:0; position:absolute;"  loop  autoplay></lottie-player>
+</div>
 
-    
   </body>
+
 </html>
